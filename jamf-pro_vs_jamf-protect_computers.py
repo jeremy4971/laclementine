@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-jamf_compare.py
+jamf-pro_vs_jamf-protect_computers.py
 
 Compares computers (by serial number) between Jamf Pro and Jamf Protect.
 
