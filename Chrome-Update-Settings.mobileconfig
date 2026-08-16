@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.example.chrome.settings.managedprefs</string>
+			<key>PayloadUUID</key>
+			<string>7F3C1A94-2B6D-4E58-9C11-A0D4E7B5F832</string>
+			<key>PayloadDisplayName</key>
+			<string>Custom Settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Keystone</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>updatePolicies</key>
+								<dict>
+									<key>global</key>
+									<dict>
+										<key>UpdateDefault</key>
+										<integer>0</integer>
+									</dict>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>RelaunchNotification</key>
+								<integer>2</integer>
+								<key>RelaunchNotificationPeriod</key>
+								<integer>86400000</integer>
+								<key>RestoreOnStartup</key>
+								<integer>1</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadIdentifier</key>
+	<string>com.example.chrome.settings</string>
+	<key>PayloadUUID</key>
+	<string>1D8E6B27-4A05-4F39-8B7C-3E92CA61D0F4</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Chrome Update Settings</string>
+	<key>PayloadDescription</key>
+	<string>Enables automatic Chrome updates via Keystone, forces relaunch after 48 hours, and restores the last session on startup.</string>
+	<key>PayloadOrganization</key>
+	<string>Example Organization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+</dict>
+</plist>
